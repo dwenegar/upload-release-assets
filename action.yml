@@ -1,0 +1,16 @@
+name: 'Upload Multiple Assets to a Release'
+description: 'Upload multiple release assets to an existing release in your repository'
+author: 'Simone Livieri'
+inputs:
+  release_id:
+    description: 'The id of the release to upload the assets to'
+    required: true
+  assets_path:
+    description: 'The path to the assets you want to upload'
+    required: true
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
+branding:
+  icon: 'package'
+  color: 'gray-dark'
