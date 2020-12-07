@@ -33,5 +33,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           release_id: ${{ steps.create_release.outputs.id }}
-          path: path/to/my/assets
+          assets_path: path/to/my/assets
 ```
