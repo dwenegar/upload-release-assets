@@ -9,7 +9,7 @@ inputs:
     description: 'The path to the assets you want to upload'
     required: true
 runs:
-  using: 'node12'
+  using: 'node20'
   main: 'dist/index.js'
 branding:
   icon: 'package'
